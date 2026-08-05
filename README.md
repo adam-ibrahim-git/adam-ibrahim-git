@@ -1,25 +1,20 @@
-### Hi, I'm Adam
+### Hi, I am Adam
 
-I study computer science and mathematics at Centre College, graduating May 2028, with a GPA of 3.80 (4.00 in CS) and a physics minor.
+I study computer science and mathematics at Centre College, graduating May 2028, with a physics minor. I mostly write C and Python.
 
 I am looking for Summer 2027 software engineering and quantitative internships.
 
 ### Some things I have built
 
-- **[ChessOS](https://github.com/adam-ibrahim-git/ChessOS)**: a 16-bit x86 operating system I wrote from scratch in C. It boots in QEMU and runs a chess game I rewrote in C to run on it. About 3,140 lines of my C: kernel, system calls, a file system, and a shell.
-- **[datafest-2026](https://github.com/adam-ibrahim-git/datafest-2026)**: first place (Best in Show) at ASA DataFest 2026. I led a 3-person team through a weekend analysis of a large healthcare dataset, mapping demographic disparities with chi-square residuals and validating the main finding with a 100,000-iteration bootstrap.
-- **We Were Here**: I am the sole developer of a public digital archive of Black history in Danville, KY for Centre's Anthropology department. 750+ items, about 390 oral-history clips, and 450 proofed transcripts. ([listening player](https://github.com/adam-ibrahim-git/wwh-listen))
-
-### A few other things
-
-- I am a teaching assistant for Systems Programming. I run labs and office hours for the C and Linux course and help 20+ students debug segfaults, memory leaks, and pointers.
-- I built the CS department's autograder as a summer intern. It cut grading time from 30+ minutes to under 5 per class and is still used across courses.
-- I do math research on Collatz-style dynamical systems. I built an independent Python analysis engine to cross-check the group's computational results, and proved new theorems on component counts.
-- 2025 ICPC North America Mid-Central Regional. Top 0.2% on Chess.com.
+- **[ChessOS](https://github.com/adam-ibrahim-git/ChessOS)**: a 16-bit x86 operating system written from scratch in C. It boots in QEMU and runs a chess game I rewrote in C to run on it.
+- **[datafest-2026](https://github.com/adam-ibrahim-git/datafest-2026)**: my team's analysis code from ASA DataFest 2026, a weekend study of a large de-identified healthcare dataset.
+- **[we-were-here](https://github.com/adam-ibrahim-git/we-were-here)**: the interactive audio and video players for We Were Here, a public digital archive of Black history in Danville, KY that I build for Centre's Anthropology department.
+- **[Summer_2026_ECSDs](https://github.com/adam-ibrahim-git/Summer_2026_ECSDs)**: Python tooling for undergraduate number theory research on Collatz-style integer maps.
+- **[HKYKids](https://github.com/adam-ibrahim-git/HKYKids)**: React frontend for Heart of Kentucky Kids, a children's-education nonprofit.
 
 ### Tools I use
 
-Python, C, Linux, Git, Java, JavaScript, React, PyQt5, QEMU, LaTeX
+Python, C, Linux, Git, Java, JavaScript, React, HTML/CSS, PyQt5, QEMU, LaTeX
 
 ### Reach me
 

@@ -1,21 +1,17 @@
-### Hi, I am Adam
+# Adam Ibrahim
 
-I study computer science and mathematics at Centre College, graduating May 2028, with a physics minor. I mostly write C and Python.
+CS and math at Centre College, class of 2028. I mostly write C and Python. Looking for a Summer 2027 software engineering or quant internship.
 
-I am looking for Summer 2027 software engineering and quantitative internships.
+[ChessOS](https://github.com/adam-ibrahim-git/ChessOS) is a 16-bit x86 OS I wrote for my operating systems class last spring. It boots from a floppy image in QEMU into a shell, and `execute chess` starts a two-player game. The course gave us the bootloader and a spec for the system calls, file system and shell, and I wrote those in C. Then I added the chess (ported from a Python version I made in intro programming), a clock in the corner of the screen that runs off the timer interrupt (that handler is in assembly), and simulated scheduling and memory allocation. The bootloader only reads 10 sectors, so the kernel has to fit in 5 KB; it compiles to about 3.5.
 
-### Some things I have built
+The chess won't let you move into check and shows CHECK!, but it doesn't know when the game is over yet, and there's no castling, en passant or promotion. The OS runs one program at a time, so the scheduler is a simulation.
 
-- **[ChessOS](https://github.com/adam-ibrahim-git/ChessOS)**: a 16-bit x86 operating system written from scratch in C. It boots in QEMU and runs a chess game I rewrote in C to run on it.
-- **[datafest-2026](https://github.com/adam-ibrahim-git/datafest-2026)**: my team's analysis code from ASA DataFest 2026, a weekend study of a large de-identified healthcare dataset.
-- **[we-were-here](https://github.com/adam-ibrahim-git/we-were-here)**: the interactive audio and video players for We Were Here, a public digital archive of Black history in Danville, KY that I build for Centre's Anthropology department.
-- **[Summer_2026_ECSDs](https://github.com/adam-ibrahim-git/Summer_2026_ECSDs)**: Python tooling for undergraduate number theory research on Collatz-style integer maps.
-- **[HKYKids](https://github.com/adam-ibrahim-git/HKYKids)**: React frontend for Heart of Kentucky Kids, a children's-education nonprofit.
+[datafest-2026](https://github.com/adam-ibrahim-git/datafest-2026) is the code behind our Best in Show at ASA DataFest 2026 (I led a team of three): were patients' paths through a regional health system equitable across groups? The data itself is confidential.
 
-### Tools I use
+I'm also the only web developer for We Were Here, a public archive of Black history in Danville, KY. [we-were-here](https://github.com/adam-ibrahim-git/we-were-here) has the media hosting and the players the site embeds ([try one](https://adam-ibrahim-git.github.io/we-were-here/player.html)).
 
-Python, C, Linux, Git, Java, JavaScript, React, HTML/CSS, PyQt5, QEMU, LaTeX
+Not on GitHub: research with Prof. Neidmann on Collatz-style integer maps, private until the group publishes. I wrote a second engine on a different algorithm from the group's and it matched all 14,028 entries of their degree-3 matrix. I also proved a parity law for the component counts.
 
-### Reach me
+I TA intro Python and the C/Linux systems course and run the intramural soccer league here. Top 0.2% on Chess.com. Grew up in Egypt and Saudi Arabia.
 
-adam.ibrahim@centre.edu, [LinkedIn](https://www.linkedin.com/in/adam-ibrahim-ln/)
+adam.ibrahim@centre.edu or [LinkedIn](https://www.linkedin.com/in/adam-ibrahim-ln/)

@@ -2,7 +2,9 @@
 
 CS and math at Centre College, class of 2028. I mostly write C and Python. Looking for a Summer 2027 software engineering or quant internship.
 
-[ChessOS](https://github.com/adam-ibrahim-git/ChessOS) is a 16-bit x86 OS I wrote for my operating systems class last spring. It boots from a floppy image in QEMU into a shell, and `execute chess` starts a two-player game. The course gave us the bootloader and a spec for the system calls, file system and shell, and I wrote those in C. Then I added the chess (ported from a Python version I made in intro programming), a clock in the corner of the screen that runs off the timer interrupt (that handler is in assembly), and simulated scheduling and memory allocation. The bootloader only reads 10 sectors, so the kernel has to fit in 5 KB; it compiles to about 3.5.
+I tend to like problems with a hard limit on them. The ChessOS kernel had to fit in 5 KB, and the archive players had to work inside a hosted site I can't change much.
+
+[ChessOS](https://github.com/adam-ibrahim-git/ChessOS) is a 16-bit x86 OS I wrote for my operating systems class last spring. It boots from a floppy image in QEMU into a shell, and `execute chess` starts a two-player game. The course gave us the bootloader and a spec for the system calls, file system and shell, and I wrote those in C. Then I added the chess (ported from a Python version I made in intro programming), a clock in the corner of the screen that runs off the timer interrupt (that handler is in assembly), and simulated scheduling and memory allocation. The bootloader only reads 10 sectors, which is where the 5 KB comes from. Mine compiles to about 3.5.
 
 The chess won't let you move into check and shows CHECK!, but it doesn't know when the game is over yet, and there's no castling, en passant or promotion. The OS runs one program at a time, so the scheduler is a simulation.
 
